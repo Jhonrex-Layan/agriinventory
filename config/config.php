@@ -23,12 +23,13 @@ return [
     "max_failed_logins" => 5,
     "lockout_minutes"   => 15,
     "log_file"   => __DIR__ . "/../storage/logs/app.log",
+    
     "db" => [
-        "host"    => "127.0.0.1",
+        "host"    => "sql108.infinityfree.com",
         "port"    => 3306,
-        "name"    => "agri_inventory_db",
-        "user"    => "root",
-        "pass"    => "",
+        "name"    => "if0_43241759_agri_inventory",
+        "user"    => "if0_43241759",
+        "pass"    => "Jhonrex2004",
         "charset" => "utf8mb4",
     ],
 ];
